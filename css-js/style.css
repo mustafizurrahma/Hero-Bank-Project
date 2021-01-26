@@ -1,9 +1,50 @@
 body{
     margin: 0;
-    padding: 0;
+    padding: 50px;
 }
-/* .login-form{
+.section-paddind{
+    padding: 0px;
+}
+.title h1{
+    color:violet;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+.login-form h3{
+    display: inline;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: tomato;
+}
+.login-form img{
+    width: 110px;
+    height: auto;
+    margin-left: 215px;
+}
+.login-form{
+    padding: 25px;
+    margin-top: 55px;
     box-shadow: 4px 4px 16px -6px rgba(0,0,0,1);
     -webkit-box-shadow: 4px 4px 16px -6px rgba(0,0,0,1);
     -moz-box-shadow: 4px 4px 16px -6px rgba(0,0,0,1);
-} */
+    width: 650px;
+    margin-left: 215px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+} 
+.btn-success {
+    padding: 10px 25px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: 400;
+    font-family: revert;
+    outline: none;
+    background: linear-gradient(360deg, orange 35%, yellow 100%);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 11px 45px !important;
+}
