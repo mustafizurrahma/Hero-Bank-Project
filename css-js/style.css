@@ -1,9 +1,9 @@
 body{
     margin: 0;
-    padding: 50px;
+    padding: 0px;
 }
 .section-paddind{
-    padding: 0px;
+    padding: 50px;
 }
 .title h1{
     color:violet;
@@ -47,4 +47,59 @@ body{
     color: #fff;
     text-transform: uppercase;
     padding: 11px 45px !important;
+}
+.name{
+    display: inline;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: tomato;
+    margin-left: 140px;
+}
+.name a{
+    text-decoration:none;
+    font-family: 'Monoton', cursive;
+    font-size: 20px;
+    word-spacing: 7px;
+}
+#bank-tranction{
+    display: none;
+}
+.status{
+    text-align: center;
+    margin-top: 70px;
+    color: #fff;
+    font-family: emoji;
+    font-weight:400;
+    font-style:italic;
+    padding:20px;
+    box-shadow: 4px 4px 16px -6px rgba(0,0,0,1);
+    -webkit-box-shadow: 4px 4px 16px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 4px 16px -6px rgba(0,0,0,1);
+    border-radius: 20px;
+}
+.status h2, h4{
+    font-size: 40px;
+    line-height: 60px;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.bank-tranctions{
+    padding: 25px;
+    margin-top: 55px;
+    box-shadow: 4px 4px 16px -6px rgba(0,0,0,1);
+    -webkit-box-shadow: 4px 4px 16px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 4px 16px -6px rgba(0,0,0,1);
+    border-radius: 20px;
+}
+.bank-tranctions input[type="text"] {
+    width: 350px;
+    color: tomato;
+    text-transform: capitalize;
+    padding: 8px 18px;
 }
